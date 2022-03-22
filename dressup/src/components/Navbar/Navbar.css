@@ -26,3 +26,14 @@
   display: flex;
   margin-right: 3rem;
 }
+
+@media only screen and (max-width: 400px) {
+  .left-nav {
+    width: 5rem;
+    margin-left: 0.5rem;
+  }
+
+  .right-nav {
+    margin-right: 0;
+  }
+}
